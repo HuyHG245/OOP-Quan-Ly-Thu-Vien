@@ -1,8 +1,8 @@
--Các tính năng chính
-+Thêm/Xóa tài liệu
-+Hiển thị danh sách tài liệu
-+Tìm kiếm theo loại (Sách/Tạp chí/Báo)
-+Kiểm tra dữ liệu hợp lệ (validation)
+Các tính năng chính:
++Thêm/Xóa tài liệu
++Hiển thị danh sách tài liệu
++Tìm kiếm tài liệu theo loại (Sách, Tạp chí, Báo)
++Kiểm tra dữ liệu hợp lệ
 
 Chạy Main.py để khởi động chương trình
 
