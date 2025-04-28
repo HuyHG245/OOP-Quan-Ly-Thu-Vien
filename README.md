@@ -1,4 +1,4 @@
-- Các tính năng chính:
+Các tính năng chính:
 
 + Thêm/Xóa tài liệu
 
