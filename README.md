@@ -8,7 +8,7 @@
 
 + Kiểm tra dữ liệu hợp lệ
 
-- Chạy Main.py để khởi động chương trình
+Chạy Main.py để khởi động chương trình
 
 ├── Main.py                # Chương trình chính
 
