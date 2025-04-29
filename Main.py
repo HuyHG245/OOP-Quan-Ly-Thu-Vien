@@ -31,7 +31,7 @@ def main():
             print("Thao tác hoàn tất.")
             break
         else:
-            print("Lựa chọn không hợp lệ!")
+            print("Lựa chọn không hợp lệ.")
 
 def them_tai_lieu(ql): # Hàm thêm tài liệu
     print("\nChọn loại tài liệu:")
