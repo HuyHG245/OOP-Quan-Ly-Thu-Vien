@@ -39,3 +39,5 @@ https://www.youtube.com/watch?v=_auZ8TTkojQ&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrL
 - Hỗ trợ viết chương trình:
 
 Thư viện datetime: https://docs.python.org/3/library/datetime.html#format-codes
+
+Phương thức get_loai, classmethod: https://www.youtube.com/watch?v=JeznW_7DlB0
