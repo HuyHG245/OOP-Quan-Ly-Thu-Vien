@@ -11,7 +11,7 @@ class TapChi(TaiLieu):
 
     def set_so_phat_hanh(self, value):
         if value <= 0:
-            raise ValueError("Số phát hành phải lớn hơn 0")
+            raise ValueError("Số phát hành phải lớn hơn 0.")
         self._so_phat_hanh = value
 
     def get_thang_phat_hanh(self):
@@ -19,7 +19,7 @@ class TapChi(TaiLieu):
 
     def set_thang_phat_hanh(self, value):
         if not 1 <= value <= 12:
-            raise ValueError("Tháng phát hành phải từ 1 đến 12")
+            raise ValueError("Tháng phát hành phải từ 1 đến 12.")
         self._thang_phat_hanh = value
 
     def hien_thi_thong_tin(self):
