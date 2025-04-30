@@ -35,3 +35,7 @@ https://www.youtube.com/watch?v=7A_csP9drJw&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrL
 https://www.youtube.com/watch?v=F5PfbC5ld-Q&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV&index=5
 
 https://www.youtube.com/watch?v=_auZ8TTkojQ&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV&index=11
+
+- Hỗ trợ viết chương trình:
+
+Thư viện datetime: https://docs.python.org/3/library/datetime.html#format-codes
