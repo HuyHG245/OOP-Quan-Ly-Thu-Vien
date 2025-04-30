@@ -11,7 +11,7 @@ class Sach(TaiLieu):
 
     def set_ten_tac_gia(self, value):
         if not value:
-            raise ValueError("Tên tác giả không được để trống")
+            raise ValueError("Tên tác giả không được để trống.")
         self._ten_tac_gia = value
 
     def get_so_trang(self):
@@ -19,7 +19,7 @@ class Sach(TaiLieu):
 
     def set_so_trang(self, value):
         if value <= 0:
-            raise ValueError("Số trang phải lớn hơn 0")
+            raise ValueError("Số trang phải lớn hơn 0.")
         self._so_trang = value
 
     def hien_thi_thong_tin(self):
