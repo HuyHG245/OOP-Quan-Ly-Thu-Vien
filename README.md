@@ -12,6 +12,8 @@ Chạy Main.py để khởi động chương trình
 
 ├── Main.py                # Chương trình chính
 
+├── GUI.py                 # Giao diện người dùng
+
 ├── QuanLySach.py          # Quản lý danh sách tài liệu
 
 ├── TaiLieu.py             # Lớp mẹ: Tài liệu
