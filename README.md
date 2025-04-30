@@ -8,7 +8,9 @@ Các tính năng chính:
 
 + Kiểm tra dữ liệu hợp lệ
 
-Chạy Main.py để khởi động chương trình
+Chạy Main.py để khởi động chương trình trong console
+
+Chạy GUI.py để khởi động chương trình qua giao diện người dùng
 
 ├── Main.py                # Chương trình chính
 
