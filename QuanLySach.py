@@ -6,29 +6,29 @@ class QuanLySach:
     
     def them_tai_lieu(self, tai_lieu): # Thêm tài liệu mới vào danh sách
         if not isinstance(tai_lieu, TaiLieu): # Kiểm tra đầu vào phải là đối tượng TaiLieu
-            raise ValueError("Chỉ chấp nhận tài liệu hợp lệ")
+            raise ValueError("Chỉ chấp nhận tài liệu hợp lệ.")
         
         # Kiểm tra trùng mã tài liệu
         for tl in self._danh_sach_tai_lieu:
             if tl.get_ma_tai_lieu() == tai_lieu.get_ma_tai_lieu():
-                raise ValueError("Mã tài liệu đã tồn tại")
+                raise ValueError("Mã tài liệu đã tồn tại.")
         
         # Thêm vào danh sách
         self._danh_sach_tai_lieu.append(tai_lieu)
-        print("Thêm tài liệu thành công!")
+        print("Thêm tài liệu thành công.")
     
     def xoa_tai_lieu(self, ma_tai_lieu): # Xóa tài liệu theo mã
         for i, tl in enumerate(self._danh_sach_tai_lieu): # Duyệt qua danh sách để tìm
             if tl.get_ma_tai_lieu() == ma_tai_lieu: # Xóa khỏi danh sách nếu tìm thấy mã
                 del self._danh_sach_tai_lieu[i]
-                print("Xóa thành công!")
+                print("Xóa thành công.")
                 return True
-        print("Không tìm thấy tài liệu")
+        print("Không tìm thấy tài liệu.")
         return False
     
     def hien_thi_danh_sach(self): # Hiển thị toàn bộ danh sách
         if not self._danh_sach_tai_lieu:
-            print("Danh sách trống!")
+            print("Danh sách trống.")
             return
         
         print("\nDANH SÁCH TÀI LIỆU")
