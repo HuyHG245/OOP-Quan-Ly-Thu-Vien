@@ -12,7 +12,7 @@ class TaiLieu:
     
     def set_ten_nha_xuat_ban(self, ten_moi):
         if not ten_moi:
-            raise ValueError("Tên nhà xuất bản không được để trống")
+            raise ValueError("Tên nhà xuất bản không được để trống.")
         self._ten_nha_xuat_ban = ten_moi
     
     def get_so_ban_phat_hanh(self):
@@ -20,7 +20,7 @@ class TaiLieu:
     
     def set_so_ban_phat_hanh(self, so_ban_moi):
         if so_ban_moi < 0:
-            raise ValueError("Số bản phát hành không được âm")
+            raise ValueError("Số bản phát hành không được âm.")
         self._so_ban_phat_hanh = so_ban_moi
     
     def hien_thi_thong_tin(self):
