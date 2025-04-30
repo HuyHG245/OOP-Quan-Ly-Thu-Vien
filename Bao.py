@@ -14,7 +14,7 @@ class Bao(TaiLieu):
             datetime.strptime(value, "%d/%m/%Y")
             self._ngay_phat_hanh = value
         except ValueError:
-            raise ValueError("Ngày phát hành phải có định dạng DD/MM/YYYY")
+            raise ValueError("Ngày phát hành phải có định dạng DD/MM/YYYY.")
 
     def hien_thi_thong_tin(self):
         print(f"Mã tài liệu: {self.get_ma_tai_lieu()}")
