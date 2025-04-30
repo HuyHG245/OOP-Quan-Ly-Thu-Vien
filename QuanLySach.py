@@ -8,7 +8,7 @@ class QuanLySach:
         if not isinstance(tai_lieu, TaiLieu): # Kiểm tra đầu vào phải là đối tượng TaiLieu
             raise ValueError("Chỉ chấp nhận tài liệu hợp lệ.")
         
-        # Kiểm tra trùng mã tài liệu
+        # Kiểm tra nếu có trùng mã tài liệu
         for tl in self._danh_sach_tai_lieu:
             if tl.get_ma_tai_lieu() == tai_lieu.get_ma_tai_lieu():
                 raise ValueError("Mã tài liệu đã tồn tại.")
@@ -22,13 +22,13 @@ class QuanLySach:
             if tl.get_ma_tai_lieu() == ma_tai_lieu: # Xóa khỏi danh sách nếu tìm thấy mã
                 del self._danh_sach_tai_lieu[i]
                 print("Xóa thành công.")
-                return True
+                return True # Trả về True nếu xóa thành công
         print("Không tìm thấy tài liệu.")
-        return False
+        return False # Trả về False nếu ko tìm thấy
     
     def hien_thi_danh_sach(self): # Hiển thị toàn bộ danh sách
         if not self._danh_sach_tai_lieu:
-            print("Danh sách trống.")
+            print("Danh sách trống.") # Thông báo danh sách trống
             return
         
         print("\nDANH SÁCH TÀI LIỆU")
@@ -39,12 +39,12 @@ class QuanLySach:
         ket_qua = []
         for tl in self._danh_sach_tai_lieu:
             if tl.get_loai().lower() == loai.lower(): # So sánh tên class với loại cần tìm
-                ket_qua.append(tl)
+                ket_qua.append(tl) # Thêm tài liệu tìm được vào danh sách kết quả
         
         if not ket_qua:
-            print(f"Không tìm thấy {loai}")
+            print(f"Không tìm thấy {loai}.")
             return
         
-        print(f"\nKẾT QUẢ TÌM KIẾM {loai.upper()}")
+        print(f"\nKẾT QUẢ TÌM KIẾM {loai.upper()}.")
         for tl in ket_qua:
             tl.hien_thi_thong_tin() # Hiển thị kết quả tìm kiếm
