@@ -21,3 +21,6 @@ Chạy Main.py để khởi động chương trình
 ├── TapChi.py              # Lớp con: Tạp chí
 
 ├── Bao.py                 # Lớp con: Báo
+
+Tài liệu tham khảo:
+https://www.youtube.com/watch?v=yQSEXcf6s2I&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV
