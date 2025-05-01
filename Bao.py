@@ -11,7 +11,7 @@ class Bao(TaiLieu):
 
     def set_ngay_phat_hanh(self, value): # setter gán ngày phát hành
         try:
-            datetime.strptime(value, "%d/%m/%Y") # Kiểm tra đúng định dạng ngày tháng năm
+            datetime.strftime(value, "%d/%m/%Y") # Kiểm tra đúng định dạng ngày tháng năm
             self._ngay_phat_hanh = value # Gán value nếu hợp lệ
         except ValueError:
             raise ValueError("Ngày phát hành phải có định dạng DD/MM/YYYY.") # Hiển thị lỗi nếu nhập ko đúng định dạng ngày tháng năm
