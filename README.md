@@ -12,6 +12,8 @@ Chạy Main.py để khởi động chương trình trong console
 
 Chạy GUI.py để khởi động chương trình qua giao diện người dùng
 
+├── Gui.exe                # App
+
 ├── Main.py                # Chương trình chính
 
 ├── GUI.py                 # Giao diện người dùng
