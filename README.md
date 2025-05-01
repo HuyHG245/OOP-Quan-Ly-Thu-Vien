@@ -48,4 +48,4 @@ Thư viện datetime: https://docs.python.org/3/library/datetime.html#format-co
 
 Phương thức get_loai, classmethod: https://www.youtube.com/watch?v=JeznW_7DlB0
 
-Phát hiện và sửa lỗi: AI
+Hỗ trợ sửa lỗi: AI
