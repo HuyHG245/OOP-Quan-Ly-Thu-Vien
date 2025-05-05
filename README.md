@@ -53,3 +53,7 @@ Phương thức raise ...Error: https://docs.python.org/3/tutorial/errors.html#
 Phương thức get_loai, classmethod: https://www.youtube.com/watch?v=JeznW_7DlB0
 
 - Hỗ trợ sửa lỗi: AI
+
+- Sơ đồ UML:
+![image](https://github.com/user-attachments/assets/1ffca309-d869-4a5f-8ec0-696f8d277e46)
+
