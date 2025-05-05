@@ -30,6 +30,8 @@ Chạy GUI.py để khởi động chương trình qua giao diện ngườ
 
 Tài liệu tham khảo:
 
+https://www.youtube.com/watch?v=yZUL7IFA324
+
 - Hỗ trợ làm GUI: https://www.youtube.com/watch?v=YXPyB4XeYLA
 
 https://www.youtube.com/watch?v=yQSEXcf6s2I&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV
@@ -50,4 +52,4 @@ Phương thức raise ...Error: https://docs.python.org/3/tutorial/errors.html#
 
 Phương thức get_loai, classmethod: https://www.youtube.com/watch?v=JeznW_7DlB0
 
-Hỗ trợ sửa lỗi: AI
+- Hỗ trợ sửa lỗi: AI
