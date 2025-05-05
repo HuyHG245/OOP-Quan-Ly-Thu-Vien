@@ -46,7 +46,7 @@ https://www.youtube.com/watch?v=_auZ8TTkojQ&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrL
 
 Thư viện datetime: https://docs.python.org/3/library/datetime.html#format-codes
 
-Phương thức raise ...Error: https://docs.python.org/3/tutorial/errors.html#raising-exceptions
+Phương thức raise ...Error: https://docs.python.org/3/tutorial/errors.html#raising-exceptions, https://www.youtube.com/watch?v=BR2uj5Jhv-A
 
 Phương thức get_loai, classmethod: https://www.youtube.com/watch?v=JeznW_7DlB0
 
